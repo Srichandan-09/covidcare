@@ -1,0 +1,610 @@
+.navbar {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    font-size: 20px;
+    position: -webkit-sticky;
+    position: sticky;
+  }
+  .navba {
+    margin-top:0;
+    padding: 0;
+    top: 0;
+    font-size: 20px;
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: #333;
+    
+  }
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover{
+    background-color: #111;
+  }
+  li a:hover{
+    background-color: #111;
+    display: inline-block;
+  }
+  
+  
+  .active {
+    background-color: #4CAF50;
+  }
+
+  .name{
+    background-color:rgb(119, 95, 95);
+    float: right;
+    
+  }
+
+  body{
+    background-image: url('aa.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-position: center;
+   
+}
+  .msg{
+    text-align:center;
+    color:black;
+    margin:13% 10%;
+    font-size: 30px;
+    font-weight: bold;
+    padding:12px 16px;
+    background-color: rgba(252, 251, 249,0.9);
+    box-shadow:10px 10px rgb(80, 220, 245);
+    text-shadow: 2px 2px 4px rgb(221, 138, 42);
+    border: 3px solid rgb(123, 225, 243);
+  }
+
+  .links-hidden{
+   display:block;
+   display: inline-block;
+   color: rgb(255, 255, 255);
+   padding: 12px 16px;
+   text-decoration: none;
+   font-size: 18px;
+   font-weight: bold;
+  }
+  .links-hidden{
+    
+    display: block;
+  }
+ .links-hidden:hover{
+    background-color: rgb(10, 163, 69);
+  }
+   .dropdown-menu:hover .menu-content {
+   display: block;
+  }
+  .menu-content:hover{
+    background-color:rgb(9, 102, 17);
+  }
+
+    .dropdown-menu:hover .menu-btn{
+
+    background-color: #1dd823;
+  }
+  .dropdown-menu {
+    position: relative;
+    display: inline-block;
+  }
+
+  .menu-content {
+    display: none;
+    position: absolute;
+    background-color:rgb(30, 196, 52);
+    min-width: 160px;
+    z-index: 1;
+  }
+  .menu-btn {
+    background-color:#4CAF50;
+    color: white;
+    padding: 13px;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+  }
+
+  .submit{  
+      background-color: #22d4578e;   
+      border-radius: 10px;
+      width: 50%;  
+       color: rgb(0, 0, 0);   
+       padding: 15px;   
+       margin: 10px 0px;   
+       border: 3px solid rgb(46, 44, 44);   
+       cursor: pointer;
+       align-self: centre;
+       margin:5% 25%;
+  }
+
+  .submit:hover{  
+      opacity: 0.7;
+      color: rgb(36, 34, 31);
+      border: 2px solid rgb(51, 47, 47);
+  }
+  
+  .login{  
+      padding: 25px;   
+      background-color: rgba(252, 251, 249,0.9);
+      border-radius: 10px;
+  }
+  
+  input[type=text], input[type=password], input[type=email], input[type=number], select {   
+    width: 100%;   
+    margin: 8px 0px;  
+    padding: 12px 20px;   
+    display: inline-block;   
+    border: 2px solid green;   
+    box-sizing: border-box;   
+    font-size: 15px;
+    border-radius: 10px;
+}
+.default input[type=text]{
+    width: 100%;   
+    margin: 8px 0px;  
+    padding: 12px 20px;   
+    display: inline-block;   
+    box-sizing: border-box; 
+    border: 2px solid rgb(51, 50, 50);
+    
+}
+
+.default input[type=email]{
+    width: 100%;   
+    margin: 8px 0px;  
+    padding: 12px 20px;   
+    display: inline-block;   
+    border: 2px solid rgb(63, 61, 61);   
+    box-sizing: border-box; 
+}
+
+.form{ 
+  border: none;   
+  float:right;
+  margin-right: 20%;
+}   
+.formm{
+  border: none;
+  margin-right: 10%;
+}
+.homeform{
+  border: none;   
+  float: right;
+}
+.homeout{
+  background-color: rgb(235, 125, 35);
+  border: 3px solid white;
+  border-radius: 10px;
+  color: azure;
+  padding: 10px;
+  font-size: 20px;
+}
+.homeout:hover{
+  background-color: rgba(235, 125, 35,0.7);
+  color:black;
+  cursor: pointer;
+  border-color: blanchedalmond;
+}
+
+.login label{
+  font-size: 20x;
+}
+.links {
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    background-color:rgb(30, 196, 52);
+}
+.menucontent {
+  display: none;
+  position: absolute;
+  background-color:rgb(30, 196, 52);
+  min-width:160px;
+  z-index:1;
+}
+.menucontent:hover{
+  background-color:rgba(9, 102, 17, 0.6);
+}
+.menucontent:hover .links{
+  background-color: rgba(9, 102, 17, 0.6);
+}
+
+.links:hover{
+  border:none;
+  background-color:rgba(9, 102, 17, 0.4);
+  width: absolute;
+}
+.dropdown-menu:hover .admin-btn{
+
+  background-color:rgba(8, 150, 8);
+}
+.admin-btn{
+  background-color: rgb(30, 196, 52);
+    color: white;
+    padding: 13px;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+   
+}
+.dropdown-menu:hover .btn{
+
+  background-color:rgba(8, 150, 8);
+}
+.menu-content:hover .links{
+  background-color: rgb(7, 95, 26);
+}
+
+.out{
+  float:right;
+  margin-right: 0%;
+  margin-top: 3%;
+  background-color: rgb(235, 125, 35);
+  border: 3px solid white;
+  border-radius: 10px;
+  color: azure;
+  padding: 10px;
+  font-size: 20px;
+}
+.out:hover{
+  background-color: rgba(235, 125, 35,0.7);
+  color:black;
+  cursor: pointer;
+  border-color: blanchedalmond;
+}
+.adminout{
+  margin-top: 1%;
+  margin-left: 90%;
+  background-color: rgb(235, 125, 35);
+  border: 3px solid white;
+  border-radius: 10px;
+  color: azure;
+  padding: 10px;
+  font-size: 20px;
+}
+.adminout:hover{
+  background-color: rgba(235, 125, 35,0.7);
+  color:black;
+  cursor: pointer;
+  border-color: blanchedalmond;
+}
+.details{
+  color:white;
+  border:none;
+  background: 45%;
+  font-size: 20px;
+  padding-top: 0;
+  top:0;
+  margin-top: 0;
+}
+.details:hover{
+  background-color: #111;
+}
+.sessionpage{
+  width:100%; 
+  border:none;  
+  margin:0%;
+}
+.btn{
+  background-color: #333;
+    color: white;
+    padding: 13px;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+}
+.btn:hover{
+  background-color: rgb(16, 107, 16);
+}
+
+.adminhos{
+  margin: 0 auto;
+  background-color: rgba(252, 251, 249,0.9);
+  width:60%;
+  border:3px solid white;
+  margin-top:10px ;
+}
+.data{
+  align-items: center;
+  padding: 5px;   
+  background-color: rgba(252, 251, 249,0.9);
+  text-align: center;
+  align-self: center;
+  width:98%;
+  border:3px solid rgb(17, 16, 16);
+  color: red;
+  text-shadow: 2px 2px 2px rgb(36, 22, 7);
+ 
+}
+
+.dataa{
+  align-items: center;
+  padding: 5px;   
+  background-color: rgba(252, 251, 249,0.9);
+  text-align: center;
+  align-self: center;
+  width:98%;
+  border:3px solid rgb(17, 16, 16);
+  color: red;
+  text-shadow: 2px 2px 2px rgb(24, 14, 3);
+}
+.dataaa{
+  align-items: center;
+  padding: 5px;   
+  background-color: rgba(252, 251, 249,0.9);
+  text-align: center;
+  align-self: center;
+  width:98%;
+  border:3px solid rgb(17, 16, 16);
+  color: red;
+  text-shadow: 2px 2px 2px rgb(44, 27, 8);
+}
+.databorder{
+  margin-top: 40px;
+  width:59.6%;
+  border:3px solid rgb(233, 227, 227);
+  margin-left: 20%;
+  align-items: center;
+}
+
+.databorderr{
+  margin-top: 40px;
+  width:59.6%;
+  border:3px solid rgb(233, 227, 227);
+  margin-left: 20%;
+  align-items: center;
+}
+.databorderrr{
+  margin-top: 40px;
+  width:64%;
+  border:3px solid rgb(233, 227, 227);
+  margin-left: 18%;
+  align-items: center;
+}
+
+table {
+  margin: 0 auto;
+  background-color: rgba(252, 251, 249,0.9);
+  width:60%;
+  border:3px solid white;
+  margin-top:20px ;
+}
+.table{
+  background-color: rgba(252, 251, 249,0.9);
+  width:60%;
+  border:3px solid white;
+  margin-top:5px ;
+}
+
+th{
+  width:50%;
+  border:3px solid rgb(51, 49, 49);
+  margin-left: 2px;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+td{
+  color: rgb(3, 1, 1);
+  width:50%;
+  border:3px solid rgb(51, 49, 49);
+  margin-right: 2px;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bolder;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.update{
+  border-radius: 5px;
+  border: 3px solid black;
+  margin-left: 27%;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: x-large;
+  background-color: rgba(252, 251, 249,0.9);
+}
+.update:hover{
+  /*background-color:rgb(152, 228, 228,0.5);*/
+  background-color: rgba(252, 251, 249,0.9);
+}
+
+.delete{
+  border-radius: 5px;
+  border: 3px solid black;
+  margin-left: 5%;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: x-large;
+  background-color: rgba(252, 251, 249,0.9);
+}
+.delete:hover{
+  background-color: rgb(152, 228, 228,0.5);
+}
+
+.tableempty{
+  text-align: center;
+}
+
+.heading{
+  color: red;
+}
+
+.signup{
+  float:right;
+}
+
+.signup a:hover{
+    color: rgb(214, 133, 57);
+}
+.aaa {  
+  width:40%; 
+  border: 3px solid rgb(8, 8, 8);   
+  margin:0% 30%;
+  border-radius: 10px;
+} 
+
+.a{
+  width:50%;
+  margin-left:0%;
+}
+
+.adminlogin{
+  width:40%;
+  font-size: 15px;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgb(34, 33, 31);
+  color: red;
+  background-color: rgba(252, 251, 249,0.9);
+  margin:2% 30% 2% 30%;
+  border: 3px solid black;
+  padding: 0px; 
+  border-radius: 10px;
+}
+
+.patientborder{
+  margin-top: 40px;
+  width:59.6%;
+  border:3px solid rgb(233, 227, 227);
+  margin-left: 20%;
+  align-items: center;
+}
+.patientorder{
+  margin-top: 40px;
+  width:59.6%;
+  border:3px solid rgb(233, 227, 227);
+  margin-left: 20%;
+  align-items: center;
+}
+.patientata{
+  color: red;
+  text-shadow: 1px 1px 1px rgb(8, 6, 3);
+  align-items: center;
+  padding: 3px;   
+  background-color: rgba(252, 251, 249,0.9);
+  text-align: center;
+  align-self: center;
+  width:98%;
+  border:3px solid rgb(17, 16, 16);
+}
+
+.patientdata{
+  align-items: center;
+  padding: 3px;   
+  background-color: rgba(252, 251, 249,0.9);
+  text-align: center;
+  align-self: center;
+  width:98%;
+  border:3px solid rgb(17, 16, 16);
+}
+
+.patientdetails{
+  width:48%;
+  position: fixed;
+  background-color:rgb(51, 93, 100);
+}
+
+.bookslotform{
+
+width:50%;
+ margin-left: 50%;
+ background-color: cadetblue;
+ margin-top: 0%;
+ border-left:3px solid black;
+ border-right: 3px solid black;
+}
+.bookslot{
+  width: 98%;
+  margin-top: 2%;
+ background-color:rgb(51, 93, 100) ;
+ border: 3px solid #111;
+}
+.bbb{
+  width:90%; 
+  border: 3px solid #111111;  
+  margin: 2% 10% 3% 3%; 
+}
+.patientdetail{
+  text-align: center;
+  width:100%;
+  font-size: 15px;
+  text-shadow: 1px 1px 1px rgb(34, 33, 31);
+  color: rgb(131, 45, 11);  
+  padding: 0px;
+  margin-top: 0%;
+  padding-top: 1%;
+}
+.h3{
+  text-align: center;
+  font-size: 30px;
+  color: rgb(151, 10, 10);
+  text-shadow: 1px 1px 1px rgb(8, 6, 3);
+  background-color: rgba(252, 251, 249,0.9);
+  border:3px solid black;
+  padding: 20px;
+  width: 57%;
+  margin: 2% 20% 2% 20%;
+}
+.red{
+  color: rgb(49, 2, 2);
+}
+.h4{
+  text-align: center;
+  font-size: 30px;
+  color: rgb(151, 10, 10);
+  text-shadow: 1px 1px 1px rgb(8, 6, 3);
+  background-color: rgba(252, 251, 249,0.9);
+  border:3px solid black;
+  padding: 20px;
+  width: 54%;
+  margin: 2% 20% 2% 20%;
+}
+.alert {
+  margin:2% 30%;
+  padding: 20px;
+  background-color: #e76e1d;
+  color: white;
+
+}
+
+.close {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.close:hover {
+  color: black;
+}
